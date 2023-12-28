@@ -1,0 +1,28 @@
+#about{
+    background-color: blanchedalmond;
+    
+}
+#video {
+    margin-top: 10vb;
+    width: 100%;
+    position: relative;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: goldenrod;
+    width: 40%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+  
+  

@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  background-color:#F6F6F8 ;
+}
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  }
+  label {
+    display: block;
+    margin: 10px 0;
+    }
+  input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      }
+  input[type="submit"] {
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+        }     
+  .event {
+          opacity: 1;
+          font-weight: 750;
+          font-size: large;
+          font-family: Arial, sans-serif;
+          color: #ffffff; /* Text color on top of the background image */
+          }
+          /* Default styles for the div */
+#event_container{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Media query for screens 600px and below */
+@media only screen and (max-width: 600px) {
+  #event_container {
+    padding: 10px;
+  }
+}
+
+/* Media query for screens 400px and below */
+@media only screen and (max-width: 400px) {
+  #event_container {
+    padding: 5px;
+  }
+}
+.App{
+  width: 100%;
+  background-color: #F6F6F8;
+  color: green;
+  padding: 3vw 8vw;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+      font-size: 18px;
+  }
+}

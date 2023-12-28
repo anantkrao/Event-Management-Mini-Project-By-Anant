@@ -1,0 +1,162 @@
+
+#greenflower{
+    width: 70vb;
+    opacity: .7;
+    background-image: url(greenflower.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vb;
+    margin-top: 20vb;
+    margin-left: 15vb;
+    padding: 3vw 10vw;
+  }
+  #gfh{
+    position: absolute;
+      top: 27vb;
+      left: 12vb;
+      color: darkgoldenrod;
+      font-weight: 500;
+      font-size: 95px;
+      font-family: emoji;
+      font-stretch: wider;
+  }
+  #future{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vb;
+    height: 100vb;
+    overflow: hidden;
+    left:70%;
+    top:-68vb;
+    
+  }
+  
+  #future video{
+    border-radius: 68px;
+    border-style: groove;
+    opacity: 1;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+  }
+  #future p{
+    width: 50vb;
+    line-height: 4vb;
+    word-spacing: .3vb;
+    font-family: cursive;
+    font-weight: 530;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20vb;
+  }
+  #firecrackers{
+    background-image: url(pink_flower.jpg);
+    background-size: cover;
+    border-style: groove;
+    border-radius: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 165%;
+    width: 80%;
+    margin-left: 4vb;
+    height: 400px;
+    overflow: hidden;
+  }
+  #firecrackers video{
+    border-radius: 50px;
+    border-style: groove;
+    opacity: 1;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vb;
+    height: 50vb;
+    top: 50%;
+    position: absolute;
+  }
+  #firecrackers p{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    width: 40vb;
+    font-weight: 900;
+    height: 100%;
+    line-height: 3vb;
+    word-spacing: .3vb;
+    font-family: cursive;
+    font-size: 20px;
+    color: black; 
+  }
+  #footdiv{
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    border-radius: 50px;
+    border-style: groove;
+    margin-top: 60vb;
+    background-color: #010001;
+    overflow: hidden;
+    background-size: cover;
+  }
+  #footdiv video{
+    width: 100%;
+    height: 50vb;
+  }
+  #foothome{
+    padding: 20px; 
+    text-align: center;
+  }
+  #aboutfoot{
+      position: absolute;
+      margin-left: 10vb;
+      margin-bottom: 10vb;
+      width: 25vb;
+      height: 25vb;
+      top: 15vb;
+      left:0%;
+      list-style: none;    
+  }
+  #contactfoot{
+      position: absolute;
+      margin-right: 20vb;
+      margin-left: 90vb;
+      width: 25vb;
+      height: 25vb;
+      top: 15vb;
+      margin-bottom: 10vb;
+  }
+  #head{
+    width: 100%;
+    height: 10vb;
+    background-color: #212D4D;
+    overflow: hidden;
+  }
+  /* Your existing styles */
+  
+  video,
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  /* Your existing styles */
+  
+  /* Example of using Flexbox for layout */
+  #future,
+  #firecrackers,
+  #footdiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  /* Your existing styles */
+  #whole{
+    background-image: url(olga-thelavart-vS3idIiYxX0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+  }
