@@ -4,10 +4,13 @@ import fires from '../assets/fires.mp4'
 import tree from '../assets/tree.mp4'
 import './home.css';
 
+
 const Home = () => {
   return (
     <div id='whole'>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
     <div id="greenflower"><h2 id="gfh">Blissful Occasions</h2></div>
     <div id='future'>
       <p>Welcome to the epitome of seamless event experiences, <br/> where every moment is a masterpiece and every detail is a brushstroke of perfection.</p>

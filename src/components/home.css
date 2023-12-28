@@ -160,3 +160,14 @@
     background-size: cover;
     background-position: center;
   }
+  /* home.css */
+
+@media (max-width: 600px) {
+  #future p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  #firecrackers p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
